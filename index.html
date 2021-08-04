@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Basir Portfolio Website</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#summary">Summary</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#contactme">Contact Me</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="home">
+      <a href="https://codingwithbasir.com">
+        <img src="basir.jpg" width="300" height="300" alt="Basir Jafarzadeh" />
+      </a>
+
+      <h1>Basir Jafarzadeh</h1>
+      <p>Web Developer</p>
+      <p>Email: basir.jafarzadeh@gmail.com</p>
+    </div>
+    <div id="summary">
+      <h2>Summary</h2>
+      <p>
+        I am an enthusiastic web developer.<br />
+        I <em>develop</em> by <strong>HTML</strong>, <strong>CSS</strong> and <strong>JavaScript</strong>.
+      </p>
+      <a href="#">Back to up</a>
+    </div>
+    <div id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <a href="#">Back to up</a>
+    </div>
+    <div id="projects">
+      <h2>Projects</h2>
+      <ol>
+        <li><strong>ECommerce Website:</strong> designing a website for shopping
+          <br />
+          It is a website similar to
+          <a target="_blank" href="https://amazon.com">Amazon Website</a>
+        </li>
+        <li><strong>Restaurant Website:</strong> demonestrating foods of a restaurant
+          <br />
+          Check <a href="restaurant.html">restaurant project</a>
+          <br />
+          <video src="restaurant.mp4" width="320" height="240" controls>
+            Video not supported
+          </video>
+        </li>
+      </ol>
+      <a href="#">Back to up</a>
+    </div>
+    <div id="education">
+      <h2>Education</h2>
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Degree</th>
+            <th>University</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Masters in Software Engineering</td>
+            <td>Concordia University</td>
+            <td>2016-2018</td>
+          </tr>
+          <tr>
+            <td>Bachelor in Computer Engineering</td>
+            <td>Toronto University</td>
+            <td>2011-2015</td>
+          </tr>
+        </tbody>
+      </table>
+      <a href="#">Back to up</a>
+    </div>
+    <div id="contactme">
+      <h2>Contact Me</h2>
+      <form action="server/action" method="GET">
+        <label for="userName">Name: </label>
+        <input type="text" name="userName" id="userName" required value="John" />
+
+        <br />
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required minlength="10" maxlength="100" />
+        <br />
+
+        <label for="password">Password: </label>
+        <input pattern="[0-9]{10,20}" type="password" name="password" id="password" />
+        <br />
+
+        <label for="age">Age: </label>
+        <input type="number" name="age" id="age" min="10" required />
+        <br />
+
+        <label for="rating">Rating: </label>
+        <input type="range" min="1" max="5" step="1" name="rating" id="rating" />
+        <br />
+        <p>Hobbies:</p>
+        <label for="reading">Reading</label>
+        <input type="checkbox" name="hobbies" id="reading" value="reading" />
+        <br />
+        <label for="walking">Walking</label>
+        <input type="checkbox" name="hobbies" id="walking" value="walking" />
+        <br />
+        <p>Gender:</p>
+
+        <input type="radio" name="gender" id="male" value="male" />
+        <label for="male">Male</label>
+        <br />
+
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female">Female</label>
+        <br />
+
+        <label for="language">Language</label>
+        <select id="lanuage" name="language">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="javascript">Javascript</option>
+        </select>
+        <br />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="10" cols="40"></textarea>
+        <input type="submit" value="Submit" />
+
+      </form>
+      <a href="#">Back to up</a>
+    </div>
+  </main>
+  <footer>
+    <p>
+      Copyright 2021 Basir Jafarzadeh
+    </p>
+  </footer>
+
+</body>
+
+</html>
