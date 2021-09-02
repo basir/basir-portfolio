@@ -1,19 +1,32 @@
-
-h1, h2, h3 {
+body {
+  font-size: 18px;
+  /*
+  background-image: url('../basir.jpg');
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: aqua;
+  background-color: darkblue;
+  */
+}
+h1,
+h2,
+h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1.header {
-  color:darkblue;
+  color: darkblue;
 }
 p {
   line-height: 40px;
+  /* opacity: 0.5; */
 }
 
 .bold {
   font-weight: bold;
 }
-.blue{
-  color:blue;
+.blue {
+  color: blue;
 }
 
 #summary {
